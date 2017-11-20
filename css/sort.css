@@ -1,0 +1,143 @@
+.jdm_sort {
+	width: 100%;
+	margin: 0 auto;
+}
+.jdm_sort .jdm_search{
+	width: 100%;
+	height: 45px;
+	line-height: 45px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: url('../img/header-bg.png') repeat-x;
+	background-size: 1px 44px;
+}
+.jdm_sort .back{
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 40px;
+  height: 44px;
+  padding:  10px 11px;
+  box-sizing: border-box;
+  background-image: url("../img/jd-sprites.png");
+  background-size: 200px 200px;
+  background-position: -10px 12px;
+  background-clip: content-box;
+}
+.jdm_sort .search_box{
+	  width: 100%;
+  height: 100%;
+  padding: 0 50px;
+  box-sizing: border-box;
+}
+
+.jdm_search .search_box input {
+  width: 100%;
+  height: 30px;
+  border: 1px solid #ccc;
+  margin-top: 7px;
+  border-radius: 5px;
+  padding: 0 5px;
+  box-sizing: border-box;
+}
+
+.jdm_search .menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: block;
+  width: 44px;
+  height: 44px;
+  padding:  10px 11px;
+  box-sizing: border-box;
+  background-image: url("../img/jd-sprites.png");
+  background-size: 200px 200px;
+  background-position: -50px 12px;
+  background-clip: content-box;
+}
+
+
+main{
+	width: 100%;
+	height: 100%;
+	padding-top: 45px;
+	box-sizing: border-box;
+	display: flex;
+	position: fixed;
+  	top: 0;
+  	left: 0;
+}
+
+.main_left{
+	width: 90px;
+	height: 100%;
+	overflow: hidden;
+}
+.main_left ul{
+	width:100%;
+
+}
+.main_left ul li{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	font-size: 14px;
+	text-align: center;
+	box-sizing: border-box;
+	background-color: #f3f4f6;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+.main_left ul li:first-child{
+	background-color: #fff;
+	border-right: 0;
+	color: red;
+}
+
+.main_right{
+	flex: 1;
+	margin-left: 15px;
+	padding-right: 5px;
+	overflow-y: auto;
+}
+
+.main_right h4{
+	width: 100%;
+	height: 45px;
+	line-height: 50px;
+}
+
+.main_right .hot_rec ul{
+	width: 100%;
+	border-top: 1px solid #ccc;
+  	border-left: 1px solid #ccc;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+.main_right .hot_rec ul li{
+	float: left;
+	width:33.333333333%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	border-right: 1px solid #ccc;
+  	border-bottom: 1px solid #ccc;
+  	box-sizing: border-box;
+}
+.gps ul{
+	width: 100%;
+	overflow: hidden;
+}
+
+.gps ul li{
+	text-align: center;
+	width: 33.33%;
+	float: left;
+}
+.gps ul li img{
+	width: 100%;
+	vertical-align: middle;
+}
+

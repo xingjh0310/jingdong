@@ -1,0 +1,675 @@
+html,body {
+  background-color: #f7f7f7;
+}
+
+.jdm{
+	width: 100%;
+	margin: 0 auto;
+}
+
+.jdm-search{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  background-color: #c91523;
+  z-index: 10;
+}
+
+
+.jdm-search .search_box{
+  width: 100%;
+  height: 100%;
+  padding-left: 75px;
+  padding-right: 50px;
+  box-sizing: border-box;
+  position: relative;
+
+  }
+  .jdm-search .logo{
+  display:block;
+  position: absolute;	
+  top: calc((40px - 21px) / 2);
+  left: calc((75px - 56px) / 2);
+  width: 56px;
+  height: 21px;
+  background-position: 0 -109px;
+  background-image: url("../img/jd-sprites.png");
+  background-size: 200px 200px;
+  }
+
+  .jdm-search .search_box i{
+  	width: 20px;
+  	height: 20px;
+  	position: absolute;
+  	top: 10px;
+  	left: 80px;
+  	background: url('../img/jd-sprites.png') -60px -109px;
+  	background-size: 200px 200px;
+  }
+
+  .jdm-search .search_box input{
+  	width: 100%;
+  	height: 30px;
+  	border-radius: 15px;
+  	margin-top: 5px;
+  	border: none;
+  	padding-left:25px;
+  	box-sizing: border-box;
+  	font-size: 16px;
+  }
+
+.jdm-search .logoin{
+	width: 50px;
+  	height: 40px;
+	position: absolute;	
+	top: 0;
+	right: 0;
+	text-align: center;
+	line-height:40px;
+	font-size: 16px;
+	color: #fff;
+}
+/* 轮播图 */
+.carousel{
+	width: 100%;
+}
+.carousel img{
+	width: 100%;	
+}
+
+/* 导航部分 */
+
+.nav{
+	width: 100%;
+	padding-top:10px;
+	margin-bottom: 5px;
+	box-sizing: border-box;
+	background-color: #fff;
+}
+.nav ul {
+  width: 100%;
+  overflow: hidden;
+}
+.nav ul li{
+	width: 25%;	
+	float: left;
+	text-align: center;	
+	 padding-bottom: 10px;
+}
+.nav img {
+  width: 40px;
+  height: 40px;
+  padding-bottom: 5px;
+}
+.nav span{
+	display: block;
+}
+.seckill{
+	width: 100%;
+	padding:0 5px;
+	box-sizing: border-box;
+	background-color: #fff;
+}
+
+.kill_title{
+	width: 100%;
+	height: 40px;
+	overflow: hidden;		
+}
+
+.kill_title h2{
+	position: relative;	
+	float: left;
+	padding-left: 24px;
+	line-height: 40px;
+	color: red;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+.kill_title h2:before{
+	content: "";
+	position: absolute;	
+	top: 6px;
+	left: 0px;
+	width: 20px;
+	height: 26px;	
+	background-position: -84px -107px;
+  	background-image: url("../img/jd-sprites.png");
+  background-size: 200px 200px;
+}
+
+.kill_title .seckill-time{
+	float: left;
+	margin-left: 10px;
+	margin-top: 13px;
+}
+.seckill .kill_title .seckill-time span {
+  display: block;
+  float: left;
+  background-color: #000;
+  padding-top: 2px;
+  color: #fff;
+}
+ .kill_title .seckill-time span:nth-child(3n) {
+  background-color: #fff;
+  color: #000;
+  margin: 0 2px;
+}
+.kill_title .seckill-more {
+	position: relative;
+	padding-right: 30px;
+  float: right;
+  line-height: 40px;
+}
+/* 更多秒杀按钮 */
+.kill_title .seckill-more:after{
+	content: "";
+	position: absolute;	
+	top: 13px;
+	right: 0px;
+	width: 20px;
+	height: 20px;	
+  	background: url("../img/icon-right.png") no-repeat;
+}
+.seckill .hot_goods{
+	margin-top: 20px;
+}
+.hot_goods ul{
+	width: 100%;
+	overflow: hidden;
+}
+
+.hot_goods ul li{
+	text-align: center;
+	width: 33.3333%;
+	float: left;
+	padding-bottom: 10px;
+	box-sizing: border-box;
+
+}
+.hot_goods ul li img{
+	width: 80%;	
+	height: auto;
+	vertical-align: middle;	
+}
+
+.hot_goods ul li span{
+	display: block;
+	text-align: center;
+	line-height: 20px;
+	color: red;
+	margin: 5px 0;
+}
+
+.hot_goods ul li del{
+	text-align: center;
+	display: block;
+}
+
+.gogo{
+	width: 100%;
+	position: relative;
+}
+
+.gogo img{
+	width: 100%;
+	vertical-align: middle;
+}
+.gogo .go{
+	position: absolute;
+	bottom: 8px;
+	padding: 0 8px;
+	overflow: hidden;
+}
+.gogo .l_go{
+	left: 0;
+	width: 50%;
+	float: left;
+}
+
+.gogo .r_go{
+	width: 50%;
+	float: left;
+}
+
+.hotsale {
+	width: 100%;
+	background-color: #fff;
+}
+
+.hotsale .hot_top{
+	width: 100%;
+	overflow: hidden;
+}
+
+
+
+.hotsale .hot_top ul li{
+	width: 33.33333%;
+	float: left;
+
+}
+
+.hotsale .hot_top ul li img{
+	width: 100%;
+	vertical-align: middle;
+}
+
+
+.hotsale .hot_bot{
+	width: 100%;
+	overflow: hidden;
+}
+
+.hotsale .hot_bot ul li{
+	width: 50%;
+	float: left;
+
+}
+
+.hotsale .hot_bot ul li img{
+	width: 100%;
+	vertical-align: middle;
+}
+
+.life{
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+
+}
+
+.life img{
+	width: 100%;
+	vertical-align: middle;
+}
+
+.market {
+	width: 100%;
+	background-color: #fff;
+}
+
+.market h4{
+	color: red;
+	font-size: 14px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.market .food{
+	width: 100%;
+	overflow: hidden;
+}
+.market .food>img{
+	width: 50%;
+}
+.market .market_top {
+	float: right;
+	width: 50%;
+}
+.market .market_top img{
+	width: 100%;
+	vertical-align: middle;
+}
+
+.market .market_bot{
+	width: 100%;
+	overflow: hidden;
+}
+.market_bot li{
+	width: 50%;
+	float: left;
+}
+.market_bot li img{
+	width: 100%;
+}
+
+.sale {
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.sale img{
+	width: 100%;
+}
+
+.theme {
+	width: 100%;
+	background-color: #fff;
+}
+.theme h4{
+	color: red;
+	font-size: 14px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.theme_top .computer{
+	width: 100%;
+	overflow: hidden;
+
+}
+.theme_top .computer>img{
+	width: 50%;
+	float: left;
+	vertical-align: middle;
+}
+.theme_top .computer .computer_right{
+	width: 50%;
+	float: right;
+}
+.theme_top .computer_right .right_top img{
+	width: 100%;
+	vertical-align: middle;
+}
+
+.theme_top .computer_right .right_bot{
+	width: 100%;
+	overflow: hidden;
+}
+.theme_top .computer_right .right_bot img{
+	width: 50%;
+	vertical-align: middle;
+	float: left;
+}
+.theme .theme_bot{
+	width: 100%;
+}
+.theme .theme_bot ul{
+	width: 100%;
+	overflow: hidden;
+}
+.theme .theme_bot ul li{
+	width: 25%;
+	float: left;
+}
+.theme .theme_bot ul li img{
+	width: 100%;
+	vertical-align: middle;
+}
+
+.advert {
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.advert img{
+	width: 100%;
+	vertical-align: middle;
+}
+.brand {
+	width: 100%;
+	background-color: #fff;
+}
+
+.brand h4{
+	color: red;
+	font-size: 14px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.brand .brand_con {
+	width: 100%;
+	overflow: hidden;
+}
+.brand .brand_con>img{
+	width: 40%;
+	vertical-align: middle;
+	float: left;
+}
+.brand .brand_con ul{
+	width: 60%;
+	overflow: hidden;
+}
+.brand .brand_con ul li{
+	width: 50%;
+	float: left;
+}
+.brand_con ul li img{
+	width: 100%;
+	height: 100%;
+	vertical-align: middle;
+}
+.advert_7 {
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+background-color: red;
+}
+
+.advert_7 img{
+	width: 100%;
+	vertical-align: middle;	
+}
+
+.guess .guess_top{
+	padding: 10px;
+	overflow: hidden;
+	background-color: #fff;
+}
+
+.guess .guess_top h4{
+	font-size: 14px;
+	float: left;
+}
+.guess .guess_top span{
+	color: red;
+	float: right;
+	padding: 0 18px;
+	position: relative;
+}
+.guess .guess_top span:before{
+	content: "";
+	display: block;
+	width: 18px;
+	height: 18px;
+	position: absolute;
+	top: -4px;
+	left: 0;
+	background: url('../img/icon-login.png') no-repeat;
+	background-size: 18px;
+}
+
+.guess .guess_top span:after{
+	content: "";
+	display: block;
+	width: 18px;
+	height: 18px;
+	position: absolute;
+	top: 0px;
+	right: -8px;
+	background: url('../img/icon-right.png') no-repeat;
+	background-size: 6px;
+}
+
+.guess_con {
+	width: 100%;
+	background-color: #fff;
+}
+
+.guess_con ul{
+	width: 100%;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+
+.guess_con ul li{
+	text-align: center;
+	width: 50%;
+	float: left;
+	padding: 10px;
+  box-sizing: border-box;
+
+
+}
+
+/* .guess_con ul li:last-child{
+	margin-bottom: px;
+} */
+
+.guess_con ul li img{
+	width: 100%;
+	vertical-align: middle;
+}
+.guess_con ul li p{
+	margin: 10px 0;
+   	width: 100%;
+   color: #333;
+   line-height: 1.2;
+   font-size: 14px;
+    overflow: hidden;
+   display: -webkit-box;
+   -webkit-box-orient:  vertical;
+   -webkit-line-clamp: 2;
+    word-break: break-all
+}
+.guess_con ul li>div{
+	  width: 100%;
+   border-top: 1px solid #ccc;
+   padding: 10px 0;
+   overflow: hidden;
+   box-sizing: border-box;
+}
+.guess_con ul li>div span{
+	float: left;
+   color: #c91523;
+   font-size: 14px;
+}
+
+.guess_con ul li>div a{
+	display: block;
+   float: right;
+   border: 1px solid #ccc;
+   font-size: 13px;
+   width: 44px;
+   height: 16px;
+   text-align: center;
+   line-height: 17px;
+   border-radius: 3px;
+   color: #ccc;
+}
+
+.more{
+	width: 100%;
+	height: 32px;
+	line-height: 32px;
+	font-size: 14px;
+	text-align: center;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+.handle{
+	width: 100%;
+	padding: 15px 0;
+	box-sizing: border-box;
+	border-bottom: 1px solid #ccc;
+}
+.handle ul{
+	width: 100%;
+	overflow: hidden;
+}
+
+.handle ul li{
+	width: 25%;
+	text-align: center;
+	float: left;
+	box-sizing: border-box;
+	border-right: 1px solid red;
+}
+.handle ul li:last-child{
+	border: 0;
+
+}
+
+.ver{
+  width: 100%;
+  padding: 15px 0;
+  box-sizing: border-box;
+  border-bottom: 1px solid #ccc;
+}
+
+.ver ul{
+	width: 100%;
+	overflow: hidden;
+}
+.ver ul li{
+	text-align: center;
+	float: left;
+	width: 33.3333%;
+}
+
+.ver ul li:first-child i{
+	margin: 0 auto;
+	display: block;
+	width: 40px;
+    height: 40px;
+    background: url('../img/jd-sprites.png');
+    background-position: -116px -69px;
+    background-size: 200px 200px;
+}
+.ver ul li:nth-child(2) i{
+	margin: 0 auto;
+	display: block;
+	width: 40px;
+    height: 40px;
+    background: url('../img/jd-sprites.png');
+    background-position: -35px -69px;
+    background-size: 200px 200px;
+}
+.ver ul li:nth-child(3) i{
+	margin: 0 auto;
+	display: block;
+	width: 40px;
+    height: 40px;
+    background: url('../img/jd-sprites.png');
+    background-position: -75px -69px;
+    background-size: 200px 200px;
+}
+
+.copyright {
+	width: 100%;
+	padding: 15px 0;
+	text-align: center;
+	margin-bottom: 40px;
+}
+/* 底部工具栏 */
+.jdm-toolbar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 44px;
+  border-top: 1px solid #f7f7f7;
+  background-color: #fff;
+  box-sizing: border-box;
+  z-index: 10;
+}
+
+.jdm-toolbar ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+
+}
+
+.jdm-toolbar li {
+  flex: 1;
+  height: 100%;
+}
+
+.jdm-toolbar a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.jdm-toolbar img {
+  width: auto;
+  height: 44px;
+}
